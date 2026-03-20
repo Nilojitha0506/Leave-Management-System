@@ -22,6 +22,7 @@ export default function LeaveForm() {
     reason: "",
   });
   const [loading, setLoading] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState("");
   const [showModal, setShowModal] = useState(false);
   const [modalMessage, setModalMessage] = useState("");
 
